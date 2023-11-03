@@ -53,5 +53,9 @@ bst_t *bst_search(const bst_t *tree, int value);
 int binary_tree_is_perfect(const binary_tree_t *tree);
 size_t count_height(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
+int binary_tree_height(const binary_tree_t *tree);
+int binary_tree_is_avl(const binary_tree_t *tree);
+bst_t *bst_remove(bst_t *root, int value);
+bst_t *bst_find_successor(bst_t *node);
 
 #endif
